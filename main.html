@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insta Ads Survey</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" 
+        rel="stylesheet">
+  </head>
+  <body>
+    <div class="heading">Instagram Advertisement Survey</div>
+    <div class="form-details">
+        <form class="input-details">
+            <label for="name-input">Name</br>
+                <input type="text" class="input" id="name"/>
+            </label></br>
+            <label for="email-input">Email</br>
+                <input type="email" class="input" id="email"/>
+            </label></br>
+            <label for="age-range">Under which age-category do you fall?</br>
+                <input type="radio" class="check" id="age" name="agegroup" value="under13">under 13</br>
+                <input type="radio" class="check" id="age" name="agegroup" value="13-18">13 to 18</br>
+                <input type="radio" class="check" id="age" name="agegroup" value="19-24">19 to 24</br>
+                <input type="radio" class="check" id="age" name="agegroup" value="25-30">25 to 30</br>
+                <input type="radio" class="check" id="age" name="agegroup" value="30above">above 30</br>
+            </label></br>
+            <label for="insta-ad">Which of the following ads have you seen recently?</br>
+                <input type="checkbox" class="check" id="ad" name="insta ad" value="Oppo F21 Pro">Oppo F21 Pro</br>
+                <input type="checkbox" class="check" id="ad" name="insta ad" value="ASUS TUF Laptops">ASUS TUF Laptops</br>
+                <input type="checkbox" class="check" id="ad" name="insta ad" value="Harpic">Harpic Toilet Cleaner</br>
+                <input type="checkbox" class="check" id="ad" name="insta ad" value="Basmati">Basmati Rice</br>
+                <input type="checkbox" class="check" id="ad" name="insta ad" value="Fastrack">Fastrack Watch</br>
+                <input type="checkbox" class="check" id="ad" name="insta ad" value="Lipton">Lipton Green Tea</br>
+            </label></br>
+            <label for="job">What is your current job?</br></label>
+            <select class="input" id="job" name="yourjob">
+                <option value="none",class="input">--cant specify--</option>
+                <option value="Student",class="input">Student</option>
+                <option value="Teacher",class="input">Teacher</option>
+                <option value="Doctor",class="input">Doctor</option>
+                <option value="Engineer",class="input">Engineer</option>
+                <option value="Businessman",class="input">Business Man</option>
+                <option value="other",class="input">Other</option>
+            </select></br>
+            <button type="submit" class="button">SUBMIT</button>
+        </form>
+    </div>
+  </body>
+</html>
